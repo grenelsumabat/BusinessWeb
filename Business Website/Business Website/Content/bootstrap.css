@@ -4936,6 +4936,8 @@ a.list-group-item.active > .badge,
   background-image: url(../images/nye.JPG);
   color: inherit;
   background-color: #eeeeee;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .jumbotron h1 {
@@ -6814,4 +6816,61 @@ td.visible-print {
   td.hidden-print {
     display: none !important;
   }
+
+  .fa {
+        padding: 20px;
+        font-size: 20px;
+        width: 60px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 2px;
+    }
+
+        .fa:hover {
+            opacity: 0.7;
+        }
+
+    .fa-facebook {
+        background: #3B5998;
+        color: white;
+    }
+
+    .fa-twitter {
+        background: #55ACEE;
+        color: white;
+    }
+
+
+    .fa-youtube {
+        background: #bb0000;
+        color: white;
+    }
+
+    .fa-instagram {
+        background: #125688;
+        color: white;
+    }
+
+                    
+    .fa-snapchat-ghost {
+        background: #fffc00;
+        color: white;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    }
+
+    footerholder {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+}
+
+.footer {
+    background: none repeat scroll 0 0 blue;
+    height: 100px;
+    margin: auto;
+    width: 400px;
+}
+
 }
