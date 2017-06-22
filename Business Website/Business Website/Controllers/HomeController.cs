@@ -28,5 +28,20 @@ namespace Business_Website.Controllers
 
             return View();
         }
+
+        public ActionResult Email()
+        {
+     
+
+            return View();
+        }
+
+        public ActionResult Gallery()
+        {
+
+
+            return View();
+        }
+
     }
 }

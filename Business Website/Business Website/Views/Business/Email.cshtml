@@ -1,0 +1,27 @@
+﻿
+
+@{ 
+    ViewBag.Title = "Index";
+}
+
+<h2>Email</h2>
+<h3>Please provide a brief description and attatch any pictures if needed</h3>
+
+<form action="mailto:grenelsumabat@gmail.com" method="post" enctype="text/plain">
+      Name:<br>
+        <input type="text" name="name"><br />
+      Email:<br />
+        <input type="text" name="mail"><br />
+      Comment:<br />
+        <textarea type="text" name="comment" style="height:200px; width:500px"></textarea>
+        <input type="file" name="attachment" multiple />
+        <br /><br />
+        
+        <input type="submit" name="Send"><br />
+        <input type="reset" name="Reset"><br />
+
+
+
+</form>
+    
+

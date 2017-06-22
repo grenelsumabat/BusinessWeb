@@ -786,6 +786,7 @@ pre code {
 .row {
   margin-right: -15px;
   margin-left: -15px;
+ 
 }
 
 .row:before,
@@ -4933,7 +4934,8 @@ a.list-group-item.active > .badge,
   font-size: 21px;
   font-weight: 200;
   line-height: 2.1428571435;
-  background-image: url(../images/nye.JPG);
+  min-height: 300px;
+  background-image: url(../images/nye.jpg);
   color: inherit;
   background-color: #eeeeee;
   background-repeat: no-repeat;
@@ -6796,81 +6798,52 @@ td.visible-print {
 }
 
 @media print {
-  .visible-print {
-    display: block !important;
-  }
-  tr.visible-print {
-    display: table-row !important;
-  }
-  th.visible-print,
-  td.visible-print {
-    display: table-cell !important;
-  }
-  .hidden-print {
-    display: none !important;
-  }
-  tr.hidden-print {
-    display: none !important;
-  }
-  th.hidden-print,
-  td.hidden-print {
-    display: none !important;
-  }
-
-  .fa {
-        padding: 20px;
-        font-size: 20px;
-        width: 60px;
-        text-align: center;
-        text-decoration: none;
-        margin: 5px 2px;
+    .visible-print {
+        display: block !important;
     }
 
-        .fa:hover {
-            opacity: 0.7;
-        }
-
-    .fa-facebook {
-        background: #3B5998;
-        color: white;
+    tr.visible-print {
+        display: table-row !important;
     }
 
-    .fa-twitter {
-        background: #55ACEE;
-        color: white;
+    th.visible-print,
+    td.visible-print {
+        display: table-cell !important;
     }
 
-
-    .fa-youtube {
-        background: #bb0000;
-        color: white;
+    .hidden-print {
+        display: none !important;
     }
 
-    .fa-instagram {
-        background: #125688;
-        color: white;
+    tr.hidden-print {
+        display: none !important;
     }
 
-                    
-    .fa-snapchat-ghost {
-        background: #fffc00;
-        color: white;
-        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    th.hidden-print,
+    td.hidden-print {
+        display: none !important;
     }
+
 
     footerholder {
-    background: none repeat scroll 0 0 transparent;
-    bottom: 0;
-    position: fixed;
-    text-align: center;
-    width: 100%;
-}
+        background: none repeat scroll 0 0 transparent;
+        bottom: 0;
+        position: fixed;
+        text-align: center;
+        width: 100%;
+    }
 
-.footer {
-    background: none repeat scroll 0 0 blue;
-    height: 100px;
-    margin: auto;
-    width: 400px;
-}
+    .footer {
+        background: none repeat scroll 0 0 blue;
+        height: 100px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+
+
+
+    /*here on down is added separtely*/
 
 }
